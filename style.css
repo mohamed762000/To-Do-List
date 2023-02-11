@@ -1,0 +1,72 @@
+h1{
+    text-align: center;
+}
+#task-form {
+    display: flex;
+    width: 500px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  
+  #task-input {
+    padding: 5px;
+    font-size: 16px;
+    width: 300px;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  button[type=submit] {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 8px;
+  }
+  
+  .modify-btn {
+    background-color: blue;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 3px;
+  }
+  
+  .delete-btn {
+    background-color: red;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 3px;
+  }
+  
+  #task-list {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+  
+  }
+  
+  #task-list li {
+    background-color: lightgray;
+    padding: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+  }
+  
+  #task-list .done {
+    background-color: lightgreen;
+    text-decoration: line-through;
+  }
+
